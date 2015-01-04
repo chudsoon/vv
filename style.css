@@ -6303,6 +6303,9 @@ button.close {
 }
 /****constants****/
 /****variables****/
+img {
+  max-width: 100% !important;
+}
 .jumbotron {
   margin-top: 5em;
   background: url('images/jumbotron.png');
@@ -6311,9 +6314,15 @@ button.close {
   background-repeat: no-repeat;
   height: 555px;
 }
-.jumbotron .volk {
-  width: 50%;
-  margin: 0 auto;
+.jumbotron .jumbotronLeft {
+  float: left;
+}
+.jumbotron .jumbotronRight {
+  float: right;
+}
+.jumbotron .jumbotronRight img {
+  max-height: 213px;
+  max-width: 209px;
 }
 .jumbotron h1 {
   font-family: legacy serif ositc tt;
@@ -6324,4 +6333,11 @@ button.close {
 .slide1 {
   background-color: #C7C7C7;
   height: 750px;
+}
+.bottom {
+  width: 100%;
+  background: url('images/transparent.png');
+}
+.bottom > img {
+  padding-bottom: 1em;
 }

@@ -9,3 +9,15 @@ function scroll_to(selector) {
     return false;
 } 
 
+$(document).ready(function(){
+	
+	// necessary to create home button in navbar 
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+

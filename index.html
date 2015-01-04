@@ -36,7 +36,7 @@ and open the template in the editor.
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="javascript:void();" onclick="scroll_to('#');">Home <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#" class="scrollToTop">Home <span class="sr-only">(current)</span></a></li>
           <li><a href="javascript:void();" onclick="scroll_to('#slide1');">Jak powstaje?</a></li>
           <li><a href="#">Gdzie powstaje?</a></li>
           <li class="dropdown">
@@ -56,14 +56,23 @@ and open the template in the editor.
     </div><!-- /.container-fluid -->
 </nav>
         <div class="jumbotron">
-            <div class="volk">
-                <h1>VOLK</h1>    
-                <h2>premium imported</h2>
-            </div>
+            <div class="container">
+                <div class="jumbotronLeft">
+                    <img src="images/logo.png">
+
+
+                </div>
+                <div class="jumbotronRight">
+                    <img src="images/medal.png">
+                </div>
+            </div>    
         </div>
 
         <div id="slide1" class="slide1">
             test
+        </div>
+        <div class="bottom navbar-fixed-bottom">
+            <img src="images/kvint.png">
         </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
